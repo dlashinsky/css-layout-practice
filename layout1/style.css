@@ -1,3 +1,58 @@
 h1 {
   color: rebeccapurple;
 }
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat (8, 100px);
+  grid-template-rows: repeat (13, 100px);
+  grid-template-areas: 
+  'item1 item1 item1 item2 item2 item2 item3 item3'
+  'item1 item1 item1 item2 item2 item2 item3 item3'
+  'item4 item1 item1 item2 item2 item2 item3 item3'
+  'item4 item5 item1 item1 item1 item1 item3 item3'
+  'item4 item5 item1 item1 item1 item1 item6 item6'
+  'item4 item5 item1 item1 item1 item1 item6 item6'
+  'item7 item5 item1 item1 item1 item1 item6 item6'
+  'item7 item1 item1 item1 item1 item1 item6 item6'
+  'item7 item1 item1 item1 item1 item1 item6 item6'
+  'item7 item1 item1 item1 item1 item1 item6 item6'
+  'item8 item1 item1 item1 item1 item1 item6 item6'
+  'item8 item1 item1 item1 item1 item1 item9 item9'
+  'item8 item1 item1 item1 item1 item1 item9 item9';
+}
+
+
+.grid1 {
+  grid-area: item1;
+  background-color: grey;
+}
+.grid2 {
+  grid-area: item2;
+  background-color: yellow;
+}
+.grid3 {
+  grid-area: item3;
+  background-color: rgb(rgb(51, 50, 51), green, blue);
+}
+.grid4 {
+  grid-area: item4;
+  background-color: grey;
+}
+.grid5 {
+  grid-area: item5;
+  background-color: grey;
+}
+.grid6 {
+  grid-area: item6;
+  background-color: grey;
+}
+.grid7 {
+  grid-area: item7;
+  background-color: blue;
+}
+.grid8 {
+  grid-area: item8;
+  background-color: grey;
+}
